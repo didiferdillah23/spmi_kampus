@@ -1,0 +1,35 @@
+body{
+    background: #0A1931;
+ }
+
+.navbar {
+    background-color: none;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+* {
+    color: white;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.082);
+    font-family: montserrat;
+    border-radius: 30px;
+}
+
+.card h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card p{
+    font-size: 15px;
+    color: rgb(173, 173, 173);
+    margin-bottom: 25px;
+    margin-top: -6px;
+}
+
+.card .btn{
+    border-radius: 30px;
+}

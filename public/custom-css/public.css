@@ -1,0 +1,81 @@
+nav {
+    font-family: montserrat;
+    background-color: #0A1931;
+}
+.navbar-brand {
+    border: 2px solid white;
+    padding: 3px 5px;
+}
+.nav-link {
+    margin-left: 20px;
+    color: rgb(73, 73, 73) !important;
+}
+.nav-link.active {
+    margin-left: 20px;
+    color: goldenrod !important;
+}
+
+.jumbotron {
+    margin-top: 50px;
+    background: #0A1931;
+}
+.jumbotron h1 {
+    color: white;
+    font-family: montserrat;
+    font-size: 50px;
+}
+.jumbotron p {
+    color: rgb(206, 206, 206);
+    font-family: montserrat;
+}
+
+#search {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    width: fit-content;
+}
+#search input:focus{
+    outline-color: white;
+}
+#search input{
+    border: none;
+    font-family: montserrat;
+    width: 200px;
+}
+
+.kategori {
+    background-color: #121212;
+    color: rgb(255, 255, 255);
+    font-family: montserrat;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px 4px;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+
+.card-artikel{
+    margin-bottom: 30px;
+    background-color: #0A1931;
+    color: white;
+    font-family: montserrat;
+}
+.card-artikel .card-header {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+@media(min-width: 768px) {
+    #search input{
+        border: none;
+        font-family: montserrat;
+        width: 400px;
+    }
+
+    .kategori {
+        font-size: medium;
+    }
+}

@@ -1,0 +1,25 @@
+body {
+    background: #0A1931;
+}
+
+.navbar {
+    background-color: none;
+    font-family: montserrat;
+    font-weight: bold;
+}
+
+.table, h2 {
+    color: white;
+    font-family: montserrat;
+}
+
+.modal {
+    color: black !important;
+    font-family: montserrat;
+}
+
+label {
+    font-family: montserrat;
+    font-weight: 800;
+}
+
